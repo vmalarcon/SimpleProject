@@ -19,7 +19,7 @@ public class Main {
             clip = (Clip) AudioSystem.getLine(info);
             clip.open(stream);
             clip.start();
-            Thread.sleep(20000L);
+
         }
         catch (Exception e) {
             //whatevers
